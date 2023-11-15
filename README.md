@@ -3,7 +3,7 @@
 # 😉 버거킹 클론 사이트
 
 
-html, css, javascript를 연습하기위한 버거킹 클론 사이트 입니다. 
+html, css, javascript, react를 연습하기위해 만든 버거킹 클론 사이트 입니다. 
 
 <br>
 <br>
