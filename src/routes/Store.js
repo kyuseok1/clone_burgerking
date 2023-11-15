@@ -24,9 +24,7 @@ let cart = createSlice({
     },
     addItem(state, action){
       state.push(action.payload)
-    },
-    
-     
+    },    
   }
 })
 

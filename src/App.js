@@ -1,12 +1,7 @@
-import logo from './logo.svg';
+
 import './public/style/index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Header from './routes/Header';
-import Center from './routes/Center';
-import Bottom from './routes/Bottom';
-import Footer from './routes/Footer';
-import Youtube1 from './routes/Youtube';
-import Swiper1 from './routes/Swiper';
+
 import Register from './routes/Register'
 import Login from './routes/Login'  
 import Home from './routes/Home'

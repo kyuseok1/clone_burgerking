@@ -54,7 +54,7 @@ const Premium = () => {
       </>
       );
       
-      // <img src="/images/기네스와퍼.png"></img>
+      
   
 }
 export default Premium

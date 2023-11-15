@@ -1,8 +1,8 @@
 import React from 'react';
-import { Routes, Route, Link, useNavigate, Outlet  } from 'react-router-dom'
+
 
 function Header(props) {
-	let navigate = useNavigate()
+	
 	return (
 		
 		<>
@@ -13,9 +13,9 @@ function Header(props) {
 			</div>
 			<div class="header-top">
 				<div class="header-top2">
-				<Link to="/login" id="login-register">로그인</Link> &nbsp; &nbsp;
-					<Link to="/register" id="login-register">회원가입</Link>
-					<Link to ="/order">주문/예약 내역</Link>
+				<a href="/login" id="login-register">로그인</a> &nbsp; &nbsp;
+				<a href="/register" id="login-register">회원가입</a>
+					<a href ="/order">주문/예약 내역</a>
 				</div>
 
 			</div>
@@ -29,14 +29,14 @@ function Header(props) {
 						<li class="topmenu "><a href="./new.html">메뉴소개</a>
 							<ul class="subtopmenu sub1">
 								<li>
-									<Link to="/new">
+								<a href="/new">
 										신제품(NEW)
-									</Link>
+									</a>
 								</li>
 								<li>
-									<Link to="/premium">
+								<a href="/premium">
 										프리미엄
-									</Link>
+									</a>
 								</li>
 								<li>와퍼&주니어</li>
 								<li>치킨&슈림프버거</li>
