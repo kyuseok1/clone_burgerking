@@ -22,12 +22,9 @@ html, css, javascript를 연습하기위한 버거킹 클론 사이트 입니다
 - [📖 Contents](#-contents)
 - [🌈 Background](#-background)
 - [🔗 Link](#-link)
-  - [Github Repositories](#github-repositories)
 - [🛠 Features](#-features)
 - [📈 Release Note](#-release-note)
 - [🪃 Skills](#-skills)
-  - [Client](#client-1)
-  - [Server](#server-1)
 - [🪛 Project Control](#-project-control)
 - [🧗 Challenges](#-challenges)
   - [1. axios를 통해 josn데이터 받기](#1-axios를-통해-josn데이터-받기)
@@ -45,7 +42,7 @@ html, css, javascript를 막 배우기 시작할때 연습하기 위해 만든 �
 
 # 🔗 Link
 
-- []
+- [https://legendary-marshmallow-aacddc.netlify.app/]
 
 
 # 🛠 Features
@@ -91,7 +88,7 @@ html, css, javascript를 막 배우기 시작할때 연습하기 위해 만든 �
 
 # 🧗 Challenges
 
-대략 90일 동안 기능 개발을 하면서 겪은 어려움 또는 도전은 아래와 같습니다.
+대략 50일 동안 기능 개발을 하면서 겪은 어려움 또는 도전은 아래와 같습니다.
 
 <br>
 
