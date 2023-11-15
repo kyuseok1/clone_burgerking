@@ -71,12 +71,14 @@ html, css, javascript를 막 배우기 시작할때 연습하기 위해 만든 �
 - Html
 - Javascript
 - React
+- Redux
 
 <br>
+
 ## Server
 
-- Node.js
-- Express
+- Nodemon
+- netlify
 
 <br>
 
