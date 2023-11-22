@@ -3,7 +3,7 @@
 # 😉 버거킹 클론 사이트
 
 
-html, css, javascript를 연습하기위한 버거킹 클론 사이트 입니다. 
+html, css, javascript, react를 연습하기위해 만든 버거킹 클론 사이트 입니다. 
 
 <br>
 <br>
@@ -22,17 +22,14 @@ html, css, javascript를 연습하기위한 버거킹 클론 사이트 입니다
 - [📖 Contents](#-contents)
 - [🌈 Background](#-background)
 - [🔗 Link](#-link)
-  - [Github Repositories](#github-repositories)
 - [🛠 Features](#-features)
 - [📈 Release Note](#-release-note)
 - [🪃 Skills](#-skills)
-  - [Client](#client-1)
-  - [Server](#server-1)
 - [🪛 Project Control](#-project-control)
 - [🧗 Challenges](#-challenges)
-  - [1. axios를 통해 josn데이터 받기](#1-axios를-통해-josn데이터-받기)
-  - [2. Mongodb/Passport 라이브러리를 이용한 회원가입/로그인 기능 구현](#2-mongodbpassport-라이브러리를-이용한-회원가입로그인-기능-구현)
-  - [3. aws를 이용한 프로젝트 배포](#3-aws를-이용한-프로젝트-배포)
+  - [1. swiper-slider-라이브러리-사용하기](#1-swiper-slider-라이브러리-사용하기)
+  - [2. 주문예약내역-기능-구현](#2-주문예약내역-기능-구현)
+
 
 
 <br>
@@ -45,7 +42,7 @@ html, css, javascript를 막 배우기 시작할때 연습하기 위해 만든 �
 
 # 🔗 Link
 
-- []
+- [https://legendary-marshmallow-aacddc.netlify.app/]
 
 
 # 🛠 Features
@@ -63,7 +60,7 @@ html, css, javascript를 막 배우기 시작할때 연습하기 위해 만든 �
 # 📈 Release Note
 | version | log |
 | --- | --- |
-| 0.1.0 | 로그인,회원가입 기능추가 |
+| 0.1.0 | 프리미엄/신제품 데이터 추가 |
 | ~ 0.0.1 | 주문/예약내역 기능추가 |
 
 <br>
@@ -74,12 +71,14 @@ html, css, javascript를 막 배우기 시작할때 연습하기 위해 만든 �
 - Html
 - Javascript
 - React
+- Redux
 
 <br>
+
 ## Server
 
-- Node.js
-- Express
+- Nodemon
+- netlify
 
 <br>
 
@@ -91,7 +90,7 @@ html, css, javascript를 막 배우기 시작할때 연습하기 위해 만든 �
 
 # 🧗 Challenges
 
-대략 90일 동안 기능 개발을 하면서 겪은 어려움 또는 도전은 아래와 같습니다.
+대략 50일 동안 기능 개발을 하면서 겪은 어려움 또는 도전은 아래와 같습니다.
 
 <br>
 
@@ -104,15 +103,9 @@ html, css, javascript를 막 배우기 시작할때 연습하기 위해 만든 �
 
 <br>
 
-## 2 회원가입/로그인 기능 구현
 
 
- 
-
-<br>
-
-
-## 3. 주문/예약내역 기능 구현
+## 2. 주문/예약내역 기능 구현
 
 주문/예약내역을 구현할때 처음으로 redux를 사용해봤습니다. 처음 써보는 reducer와 store는 어렵게 느껴지고 지금당장은 필요 없어보였지만, <br>
 프로젝트의 규모가 커졌을 때 보이는 컴포넌트의 개수가 늘어나면서 다루는 데이터도 늘어나고 그 데이터를 업데이트하는 함수들도 늘어나면 앞으로 도움이 될거라 생각하고 써봤습니다.<br>
