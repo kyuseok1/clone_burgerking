@@ -4,9 +4,6 @@ import { configureStore, createSlice } from '@reduxjs/toolkit'
 let user = createSlice({
   name : 'user',
   initialState : {name: 'kim', count : 1},
-  reducers : {
-    
-  }
 })
  
 let cart = createSlice({
@@ -14,17 +11,15 @@ let cart = createSlice({
   initialState:[
     { id: 1, name: '기네스와퍼', src: "/images/기네스와퍼.png",  count:1},
     { id: 2, name: '몬스터와퍼', src: "/images/몬스터와퍼.png", count:1},
-    { id: 3, name: '기네스콰트로치즈와퍼', src: "/images/기네스콰트로치즈와퍼.png", count:1},
-    { id: 4, name: '몬스터x', src: "/images/몬스터x.png", count:1},
-    { id: 5, name: '통새우와퍼', src: "/images/통새우와퍼.png", count:1},
+    
   ],
   reducers:{
     addCount(state,action){
       state[action.payload].count++
     },
-    addItem(state, action){
-      state.push(action.payload)
-    },    
+    // addItem(state, action){
+    //   state.push(action.payload)
+    // },    
   }
 })
 
@@ -39,10 +34,9 @@ let premium = createSlice({
     { id: 5, name: '통새우와퍼', src: "/images/통새우와퍼.png", count:1},
     
   ],
-  reducers:{
+  
     
-    
-  }
+  
 })
 let new_product = createSlice({
   name: 'new_product',
@@ -54,9 +48,7 @@ let new_product = createSlice({
     { id: 5, name: '치킨킹BLT', src: "/images/치킨킹BLT.png", count:1},
     
   ],
-  reducers:{
-    
-  }
+ 
 })
 
 export default configureStore({

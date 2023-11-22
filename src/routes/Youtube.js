@@ -4,12 +4,12 @@ const Youtube1 = () => {
     return (
         <>
             <div className='youtube1'>
-                <YouTube
+                <YouTube className='you123'
 
                     videoId={'4CO98aFxRbA'}
 
                     opts={{
-                        width: "1440",
+                        width: "100%",
                         height: "605",
                         playerVars: {
                             autoplay: 1,

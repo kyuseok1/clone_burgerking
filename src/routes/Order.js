@@ -1,6 +1,5 @@
 
 import Header from './Header';
-import '../public/style/order.css'
 import { useDispatch, useSelector } from "react-redux"
 import { addCount } from "./Store"
 
@@ -37,7 +36,7 @@ const Order = () => {
   
     {
     state.cart.map((a,i)=>
-    <tr >
+    <tr key={i}>
       <td>{i+1}</td> 
       <td>{state.cart[i].name}</td>
       <td>{state.cart[i].count}</td>

@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from './Header';
-import '../public/style/new.css'
 import { useDispatch, useSelector } from "react-redux"
 import { addItem } from "./Store"
 
@@ -33,7 +32,7 @@ const New = () => {
            state.new_product.map((a,i)=>
            <div data-filter={state.new_product[i].name}>
                    <button onClick={()=>{
-                     dispatch(addItem({id: i, name: state.new_product[i].name, src: "/images/통새우와퍼.png", count:1})) 
+                    //  dispatch(addItem({id: i, name: state.new_product[i].name, src: "/images/통새우와퍼.png", count:1})) 
                    }}> 
                    <img src={state.new_product[i].src}></img>
                    <h2>{state.new_product[i].name}</h2>

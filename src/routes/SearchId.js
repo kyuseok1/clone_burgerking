@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './Header';
-import '../public/style/searchid.css'
+
 
 const SearchId = () => {
   return (

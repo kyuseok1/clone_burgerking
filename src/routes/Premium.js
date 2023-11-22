@@ -1,10 +1,7 @@
 import React from 'react'
 import Header from './Header';
-import '../public/style/premium.css'
 import { useDispatch, useSelector } from "react-redux"
 import { addItem } from "./Store"
-
-
 
 const Premium = () => {
   let state = useSelector ((state)=> state)
@@ -37,7 +34,8 @@ const Premium = () => {
             state.premium.map((a,i)=>
             <div data-filter={state.premium[i].name}>
                     <button onClick={()=>{
-                      dispatch(addItem({id: i, name: state.premium[i].name, src: "/images/통새우와퍼.png", count:1})) 
+                      //  dispatch(addItem({id: state.cart.id, name: state.premium[i].name, src:"/images/통새우와퍼.png", count:1}))
+                      //  console.log(state.cart) 
                     }}> 
                     <img src={state.premium[i].src}></img>
                     <h2>{state.premium[i].name}</h2>

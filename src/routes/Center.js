@@ -5,7 +5,7 @@ const Center = () => {
         <div class="clearFix container center3">
             <h1>매장찾기</h1>
             <p>고객님 주변에 있는 버거킹을 찾아보세요!</p>
-            <p><button> <a href="./findStroe.html"> 매장찾기</a></button></p>
+            <p><button> <a href="#"> 매장찾기</a></button></p>
             <ul class="clearFix menuul">
                 <li><span><br></br>집에서 편안하게<br></br> 받을수 있는
                     <br></br></span>

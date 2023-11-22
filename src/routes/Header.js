@@ -6,9 +6,9 @@ function Header(props) {
 	return (
 		
 		<>
-			<div class="hidden_head">
+			<div class="hidden_header">
 				<a href=""> <img src="/images/menu-regular-48.png" alt=""></img></a>
-				<img src="../public/images/버거킹로고.png" alt=""></img>
+				<a href=""><img src="로고.gif" alt=""></img></a>
 				<button> <a href="">딜리버리주문</a> </button>
 			</div>
 			<div class="header-top">
@@ -26,7 +26,7 @@ function Header(props) {
 						<li class="toplogo"> <a href="/"> <img src="/로고.gif" width="63" height="62"
 							class="logo"></img></a>
 						</li>
-						<li class="topmenu "><a href="./new.html">메뉴소개</a>
+						<li class="topmenu "><a href="#">메뉴소개</a>
 							<ul class="subtopmenu sub1">
 								<li>
 								<a href="/new">
@@ -45,10 +45,10 @@ function Header(props) {
 								<li>음료&디저트</li>
 							</ul>
 						</li>
-						<li class="topmenu "> <a href="./findStroe.html">매장소개</a>
+						<li class="topmenu "> <a href="#">매장소개</a>
 
 							<ul class="subtopmenu sub2">
-								<li><a href="./findStroe.html">매장찾기</a></li>
+								<li><a href="#">매장찾기</a></li>
 							</ul>
 						</li>
 						<li class="topmenu"><a href="#">이벤트</a>
