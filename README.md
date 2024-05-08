@@ -4,7 +4,8 @@
 
 
 html, css, javascript, react를 연습하기위해 만든 버거킹 클론 사이트 입니다. 
-[https://legendary-marshmallow-aacddc.netlify.app/]
+<br>
+https://burgerking-clone-kyuseok.netlify.app/
 <br>
 <br>
 
@@ -40,7 +41,7 @@ html, css, javascript를 막 배우기 시작할때 연습하기 위해 만든 �
 
 # 🔗 Link
 
-- [https://legendary-marshmallow-aacddc.netlify.app/]
+- https://burgerking-clone-kyuseok.netlify.app/
 
 
 # 🛠 Features
