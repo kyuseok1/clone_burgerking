@@ -34,7 +34,7 @@ https://burgerking-clone-kyuseok.netlify.app/
 <br>
 
 # 🌈 Background
-html, css, javascript를 막 배우기 시작할때 연습하기 위해 만든 클론사이트입니다. <br> 
+html, css, javascript, React를 막 배우기 시작할때 연습하기 위해 만든 클론사이트입니다. <br> 
 평소에 자주먹는 버거킹을 따라하고 싶어서 버거킹사이트로 정했습니다.
 
 <br>
@@ -56,17 +56,12 @@ html, css, javascript를 막 배우기 시작할때 연습하기 위해 만든 �
 
 <br>
 
-# 📈 Release Note
-| version | log |
-| --- | --- |
-| 0.1.0 | 프리미엄/신제품 데이터 추가 |
-| ~ 0.0.1 | 주문/예약내역 기능추가 |
+
 
 <br>
 
 # 🪃 Skills
 
-## Client
 - Html
 - Javascript
 - React
